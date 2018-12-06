@@ -1,0 +1,43 @@
+.post_img {
+    float: left;
+    padding-right: 15px;
+}
+
+#intro {
+    padding-bottom: 10px;
+    height: 200px
+}
+
+.post_info {
+    padding: 10px;
+}
+
+img {
+    height: 200px;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.entry {
+    background-color: #EBEBE6;
+    box-shadow: 7px 7px #C5C3C6;
+    padding: 20px;
+    height: 240px;
+}
+
+.input {
+    border-left: 20px;
+}
+
+label {
+    text-align: bottom;
+}
+
+td {
+    padding-bottom: 4px;
+    width: 105px;   
+}
+
+input {
+    float: right;
+}

@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="jumbotron entry" id="intro">
+    <h1>Robots in video games</h1> </br>
+    <p>This website is currently for posts about robots in video games but really it could be about anything you want. Previously it was
+     a collection of memes but I decided there wasn't enough text to fill the page.</p>
+    
+</div>
+
+{% for post in posts %}
+
+    <div class="jumbotron entry">
+        <div class="post_img">
+            <img src={{post[4]}}></br>
+        </div>
+        <div class="post_info">
+            <h2>{{post[2]}}</h2>
+            <h3>{{post[3]}}</h3></br>
+            <p>{{post[5]}}
+        </div>
+    </div>
+
+{% endfor %}
+
+
+{% endblock %}

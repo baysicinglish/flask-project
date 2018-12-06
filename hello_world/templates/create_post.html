@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div></br>
+        <form method="post">
+            <fieldset>
+                <legend>Create Post Form</legend></br>
+                <table>
+                    <tr>
+                        <td><label for="title">Name: </label></td>
+                        <td><input type="text" name="title"></td>
+                    </tr>
+                    <tr>
+                            <td><label for="subheading">Game: </label></td>
+                            <td><input type="text" name="subheading"></td>
+                    </tr>
+                    <tr>
+                            <td><label for="image">Image URL: </label></td>
+                            <td><input type="text" name="image"></td>
+                    </tr>
+                    <tr>
+                            <td><label for="description">Description: </label></td>
+                            <td><input type="text" name="description"></td>
+                    </tr>
+                            <td></td>
+                            <td><input type="submit" value="Create" style = "align-content: right"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+        <a href="/">Back<a>
+    </div>
+
+{% endblock %}
